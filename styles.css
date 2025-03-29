@@ -1,0 +1,72 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 0 120px 100px 120px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.navbar p {
+    margin-top: 5px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links {
+    margin-top: 5px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline-block;
+    margin: 5px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-right {
+    display: flex;
+    background-color: grey;
+    width: 60%;
+    margin-left: 30px;
+}
+
+.hero-right p {
+    margin: auto;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    border-radius: 6%;
+    border-style: none;
+}
