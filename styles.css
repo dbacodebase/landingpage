@@ -15,6 +15,13 @@ header h1 {
     margin: 0;
 }
 
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -128,3 +135,27 @@ header h1 {
     font-weight: 900;
 }
 
+.action-section {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 60%;
+    margin: 50px auto 50px auto;
+    padding: 30px;
+}
+
+.action-container {
+    display: flex;
+}
+
+.action-items {
+    margin: auto;
+}
+
+.leftblock {
+    margin-left: 100px;
+}
+
+.action-section button {
+    border: 1px solid #e5e7eb;
+    margin-right: 100px;
+}
